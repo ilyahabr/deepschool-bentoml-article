@@ -10,6 +10,16 @@
 - Установка uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
+Создаем виртуальное окружение
+```
+uv venv --python 3.11
+```
+
+Активируем виртуальное окружение
+```
+source .venv/bin/activate
+```
+
 - Установка зависимостей из pyproject.toml
 ```
 uv sync 

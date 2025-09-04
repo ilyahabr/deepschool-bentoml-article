@@ -6,7 +6,7 @@ from transformers import AutoProcessor, AutoModelForZeroShotObjectDetection
 from utils.utils import draw_detections
 
 model_id = "IDEA-Research/grounding-dino-tiny"
-device = "cuda:1"
+device = "cuda:1" if torch.cuda.is_available() else "cpu"
 
 processor = AutoProcessor.from_pretrained(model_id)
 model = AutoModelForZeroShotObjectDetection.from_pretrained(model_id).to(device)

@@ -1,0 +1,13 @@
+[project]
+name = "grounding-dino-service"
+version = "0.1.0"
+description = "Grounding DINO Service"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "bentoml>=1.4.21",
+    "pillow>=11.3.0",
+    "requests>=2.32.4",
+    "torch>=2.8.0",
+    "transformers>=4.55.3",
+]

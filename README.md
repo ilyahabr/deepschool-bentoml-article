@@ -1,8 +1,8 @@
 # deepschool-bentoml-article
-
+## Сервинг модели Grounding DINO c BentoML
 ### Описание 
 
-Этот репозиторий создан к статье https://blog.deepschool.ru/ Сервинг моделей с BentoML.
+Этот репозиторий создан к статье https://blog.deepschool.ru/data/serving-modeli-grounding-dino-s-bentoml
 
 Используется модель IDEA-Research/grounding-dino-tiny для обнаружения объектов на изображении, которые соответствуют заданному текстовому запросу.
 

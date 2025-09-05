@@ -25,7 +25,7 @@ source .venv/bin/activate
 uv sync 
 ```
 
-Можно установить которую библиотеку так, подробнее https://docs.astral.sh/uv/
+Можно установить конкретную библиотеку так, подробнее https://docs.astral.sh/uv/
 ```
 uv add (название библиотеки)
 ```
